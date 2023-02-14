@@ -1,0 +1,73 @@
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    
+    }
+  body{
+    height: 100vh;
+    background-color: rgb(183, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .all{   
+    border:4px solid #6ab9f2;  
+    width: 500px; 
+    background: rgb(224, 215, 215); 
+    position: relative;    
+    
+    
+  }
+    .information{
+      margin-top: 50px;
+      /*  margin: 200px 0 40px 0; */
+        color:rgb(18, 20, 18);
+    
+    }
+    img{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    
+    }
+    .Avatar{
+        width: 200px;
+        height: 200px;
+        border:4px solid #f2726a;
+        overflow: hidden;   
+         
+    }
+  
+    .private{
+      margin: 25px 0;
+      color:blueviolet;
+      display: inline-block;     
+    }
+    .thongtin{ 
+      overflow: hidden;
+      left: 260px;
+      background: #242628;
+      border:4px solid #6ab9f2;
+      width: 235px;
+      height: 315px;
+      position:absolute;
+      right: 0;
+      top: 0;
+     box-sizing: border-box;
+     color: aqua;
+     
+     
+    }
+    .social a{
+      color: white;
+      margin: 10px;
+      display: inline-block;
+    }
+    
+    html{
+      background:gray;
+  
+      
+    }
+    
