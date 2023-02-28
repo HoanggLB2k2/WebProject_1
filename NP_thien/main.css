@@ -1,0 +1,28 @@
+/* full màn hình */
+*,
+*:before,
+*:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://scr.vn/wp-content/uploads/2020/07/%E1%BA%A3nh-n%E1%BB%81n-c%E1%BB%B1c-%C4%91%E1%BB%99c-d%C3%A1o.jpg);
+  background-size: cover;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(208, 211, 230);
+  margin-left: 100px;
+}
+
+.skill{
+  margin-bottom: 50px;
+}
+
+.container{
+  margin-bottom: 50px;
+}
+
+.roadmap{
+  margin-bottom: 50px;
+}
