@@ -1,0 +1,20 @@
+/* full màn hình */
+*,
+*:before,
+*:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background-image: url(background.jpg);
+background-size: cover;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(201, 192, 233);
+text-align: center;
+}
+.avatar{
+     font-size: 30px;
+     margin-bottom:200px;
+}

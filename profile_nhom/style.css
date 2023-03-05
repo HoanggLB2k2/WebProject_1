@@ -1,0 +1,71 @@
+/* full màn hình */
+*,
+*:before,
+*:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(anh_nen.jpg);
+  text-align: center;
+  color: wheat;
+}
+h1{
+  font-size: 50px;
+  margin-top: 100px;
+}
+img{
+  width: 60px;
+  height:60px;
+  border-radius:20px;
+  margin-top: 5px;
+}
+.button{
+    margin: 0;
+    padding: 5px 5px;
+    display: flex;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    margin: 20px;
+}
+.row-button1{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.row-button1 :hover{
+    transform: scale(0.9);
+}
+.row-button2{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.row-button2 :hover{
+    transform: scale(0.9);
+}
+
+.row-button3{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.row-button3:hover{
+    transform: scale(0.9);
+}
+
+.text{
+    padding: 25px 10px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
