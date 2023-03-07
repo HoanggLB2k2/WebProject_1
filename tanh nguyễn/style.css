@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(57, 223, 212);
+    background-color: rgb(9, 12, 12);
     padding: 150px;
 }
 .ava {
@@ -34,4 +34,11 @@ h6 {
 }
 h2 {
     font-size: larger;
+}
+h7 {
+    margin: 10px 0 8px 0;
+    font-size: larger;
+}
+.general {
+    color: white;
 }
